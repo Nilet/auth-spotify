@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conta Spotify</title>
+  </head>
+  <body>
+      <h1>Exiba seus dados de perfil do Spotify</h1>
+      <section id="profile">
+          <h2>Conectado como <span id="displayName"></span></h2>
+          <span id="avatar"></span>
+          <ul>
+              <li>Id do usuario: <span id="id"></span></li>
+              <li>E-mail <span id="email"></span></li>
+              <li>URI do Spotify: <a id="uri" href="#"></a></li>
+              <li>Link: <a id="url" href="#"></a></li>
+              <li>Imagem do perfil: <span id="imgUrl"></span></li>
+          </ul>
+      </section>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
